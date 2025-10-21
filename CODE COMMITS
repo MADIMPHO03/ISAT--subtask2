@@ -29,7 +29,7 @@ int binaryToDecimal(const string &s) {
 
 // Function 3: Decimal to Hexadecimal
 string decimalToHexadecimal(int n) {
-    if (n == 0) return "0";
+    if (n == 0) return " 0 ";
     stringstream ss;
     ss << std::uppercase << std::hex << n;
     return ss.str();
