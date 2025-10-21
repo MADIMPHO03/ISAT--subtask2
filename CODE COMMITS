@@ -40,7 +40,7 @@ int hexadecimalToDecimal(const string &hexStr) {
     string s = hexStr;
     // remove optional 0x or 0X
     if (s.size() > 1 && s[0] == '0' && (s[1] == 'x' || s[1] == 'X')) s = s.substr(2);
-    for (char &c : s) c = toupper((unsigned char)c);
+    for (char & c : s) c = toupper((unsigned char)c);
     for (char c : s) {
         if (!((c >= '0' && c <= '9') || (c >= 'A' && c <= 'F'))) return -1;
     }
