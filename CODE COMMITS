@@ -102,7 +102,7 @@ int main() {
             int dec;
             cout << "Enter a decimal number: ";
             cin >> dec;
-            cout << "Hexadecimal representation: " << decimalToHexadecimal(dec) << "\n";
+            cout << " Hexadecimal representation: " << decimalToHexadecimal(dec) << "\n";
         }
         else if (choice == 5) {
             // Fixed demo value to always display 41
